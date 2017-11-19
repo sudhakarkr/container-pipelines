@@ -34,7 +34,7 @@ The first template, `build/basic-tomcat-template.yml` is what we are calling the
 * An `s2i` BuildConfig
 * An ImageStream for the s2i build config to push to
 
-The build template contains a default source code repo for a java application compatible with this pipelines architecture (https://github.com/etsauer/ticket-monster).
+The build template contains a default source code repo for a java application compatible with this pipelines architecture (https://github.com/dwaiba/ticket-monster).
 
 The second template, `deploy/basic-tomcat-template.yml` is the "Deploy" template. It contains:
 
@@ -54,7 +54,7 @@ This project includes a sample `pipeline.groovy` Jenkins Pipeline script that co
 
 For convenience, this pipeline script is already included in the following git repository, based on the [JBoss Developers Ticket Monster](https://github.com/jboss-developer/ticket-monster) app.
 
-https://github.com/etsauer/ticket-monster
+https://github.com/dwaiba/ticket-monster
 
 ## Bill of Materials
 

@@ -38,7 +38,7 @@ The first template, `build/simple-spring-boot-template.yml` is what we are calli
 * An `s2i` BuildConfig
 * An ImageStream for the s2i build config to push to
 
-The build template contains a default source code repo for a java application compatible with this pipelines architecture (https://github.com/malacourse/simple-spring-boot-web).
+The build template contains a default source code repo for a java application compatible with this pipelines architecture (https://github.com/dwaiba/simple-spring-boot-web).
 
 The second template, `deploy/simple-spring-boot-template.yml` is the "Deploy" template. It contains:
 
@@ -62,9 +62,9 @@ This project includes a sample `pipeline.groovy` Jenkins Pipeline script that co
 * The `pipeline.groovy` script is placed in the same directory as the `pom.xml` file in the git source.
 * The OpenShift projects that represent the Application's lifecycle stages are of the naming format: `<app-name>-dev`, `<app-name>-stage`, `<app-name>-prod`.
 
-For convenience, this pipeline script is already included in the following git repository, based on a [Simple Spring Boot Web app](https://github.com/malacourse/simple-spring-boot-web) app.  The app displays a message that will change color based on which deployment is live in the production project.
+For convenience, this pipeline script is already included in the following git repository, based on a [Simple Spring Boot Web app](https://github.com/dwaiba/simple-spring-boot-web) app.  The app displays a message that will change color based on which deployment is live in the production project.
 
-https://github.com/malacourse/simple-spring-boot-web
+https://github.com/dwaiba/simple-spring-boot-web
 
 ## Bill of Materials
 

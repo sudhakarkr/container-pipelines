@@ -69,7 +69,7 @@ parameters:
 - description: Git source URI for application
   name: SOURCE_REPOSITORY_URL
   required: true
-  value: https://github.com/dwaiba/simple-spring-boot-web.git
+  value: https://github.com/sudhakarkr/simple-spring-boot-web.git
 - description: Git branch/tag reference
   name: SOURCE_REPOSITORY_REF
   value: "master"
